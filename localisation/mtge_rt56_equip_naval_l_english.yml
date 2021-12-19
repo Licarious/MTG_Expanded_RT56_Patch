@@ -1,0 +1,14 @@
+﻿l_english:
+ ship_hull_cruiser_LC:0 "Large Cruiser Hull"
+ ship_hull_cruiser_LC_desc:0 "A scaled up cruiser that fills a niche between heavy cruiser and battle cruiser classes with improved powerplants and upgraded armaments giving it the ability to outpace and outgun conventional cruisers.  Though lightly armored for its size, this cruiser's formidable anti-aircraft battery array also makes it ideal for carrier escort duties."
+ light_cruiser_LC:1 "Light Large Cruiser"
+ light_cruiser_LC_desc:0 "Advancements allow the this light cruiser to be the premere of larger ship escorts, the modern generation of light cruisers can shake off most past restrictions and be much better armed to handle aerial attacks."
+ heavy_cruiser_LC:1 "Heavy Large Cruiser"
+ heavy_cruiser_LC_desc:0 "Modular design allows for outfitting more more numerious rapid-fire armaments in this premere heavy cruiser design."
+ 
+ ship_hull_cruiser_carrier_5:0 "Flight-Deck Cruiser V"
+ ship_hull_cruiser_carrier_5_desc:0 "The modern generation Flight-Deck Cruiser has rearranged superstructure creates options to increase reange and detection while it is better armed to handle aerial and survice attacks."
+ 
+ ship_hull_submarine_5:0 "1948 Submarine Hull"
+ ship_hull_submarine_5_desc:0 "Is that what is called a super sub?"
+ 

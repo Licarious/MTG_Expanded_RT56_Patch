@@ -1,0 +1,6 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_latewar_fire_control_system_medium"
+		texturefile = "gfx/interface/technologies/advanced_fire_control_system.dds"
+	}
+}
