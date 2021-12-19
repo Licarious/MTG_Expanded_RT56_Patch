@@ -1,0 +1,410 @@
+equipments = {
+
+	ship_hull_battle_carrier = {
+		year = 1922
+
+		can_be_produced = {
+			NOT = {
+				has_idea = BUL_army_restrictions
+			}
+		}
+
+		is_archetype = yes
+		is_buildable = no
+		type = { capital_ship carrier }
+		interface_category = interface_category_capital_ships
+		priority = 1500
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_battery medium_ship_cruise_missiles }
+			}
+			fixed_ship_anti_air_slot = {
+				required = yes
+				allowed_module_categories = { ship_anti_air }
+			}
+			fixed_ship_fire_control_system_slot = {
+				required = yes
+				allowed_module_categories = { ship_fire_control_system }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { heavy_ship_engine }
+			}
+			fixed_ship_secondaries_slot = {
+				required = no
+				allowed_module_categories = { ship_secondaries }
+			}
+			fixed_ship_armor_slot = {
+				required = yes
+				allowed_module_categories = { ship_heavy_armor }	
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_anti_air
+					ship_secondaries
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = yes
+				allowed_module_categories = {
+					heavy_flight_deck
+				}
+			}
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = heavy_flight_deck_1
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 20
+		naval_speed = 20
+		reliability = 0.80
+		
+		naval_range = 3000
+		
+		max_strength = 350
+
+		fuel_consumption = 67
+		
+		build_cost_ic = 3300
+		resources = {
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 4000
+	}
+
+
+	ship_hull_battle_carrier_1 = {
+		abbreviation = "bcva"
+		year = 1922
+		archetype = ship_hull_battle_carrier
+		priority = 1500
+		visual_level = 0
+		
+		can_convert_from = { ship_hull_heavy_1 ship_hull_heavy_2 ship_hull_heavy_3 ship_hull_heavy_4 ship_hull_heavy_5 }
+		
+		module_slots = inherit
+
+		naval_range = 3000
+		
+		max_strength = 350
+		reliability = 0.80
+		fuel_consumption = 67
+		
+		build_cost_ic = 3300
+	}
+
+	ship_hull_battle_carrier_2 = {
+		abbreviation = "bcvb"
+		year = 1936
+
+		archetype = ship_hull_battle_carrier
+		priority = 1500
+		parent = ship_hull_battle_carrier_1
+		visual_level = 1
+		
+		can_convert_from = { ship_hull_heavy_2 ship_hull_heavy_3 ship_hull_heavy_4 ship_hull_heavy_5 }
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_airplane_launcher
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
+		}
+
+		default_modules = {
+			rear_1_custom_slot = heavy_flight_deck_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
+		}
+		naval_range = 3500
+		
+		max_strength = 370
+		reliability = 0.85
+		fuel_consumption = 67
+		naval_speed = 22
+		build_cost_ic = 3400
+		resources = {
+			#oil = 1
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 5200
+	}
+
+	ship_hull_battle_carrier_3 = {
+		abbreviation = "bcvc"
+		year = 1940
+
+		archetype = ship_hull_battle_carrier
+		priority = 1500
+		parent = ship_hull_battle_carrier_2
+		visual_level = 1
+		
+		can_convert_from = { ship_hull_heavy_3 ship_hull_heavy_4 ship_hull_heavy_5 }
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_airplane_launcher
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			rear_1_custom_slot = heavy_flight_deck_1
+			
+		}
+		naval_range = 4000
+		naval_speed = 24
+		max_strength = 400
+		reliability = 0.9
+		fuel_consumption = 67
+		
+		build_cost_ic = 3500
+		resources = {
+			#oil = 1
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 6000
+	}
+
+	ship_hull_battle_carrier_4 = {
+		abbreviation = "bcvd"
+		year = 1944
+
+		archetype = ship_hull_battle_carrier
+		priority = 1500
+		parent = ship_hull_battle_carrier_3
+		visual_level = 1
+		
+		can_convert_from = { ship_hull_heavy_4 ship_hull_heavy_5 }
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_airplane_launcher
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			rear_1_custom_slot = heavy_flight_deck_1
+		}
+		naval_range = 4500
+		
+		max_strength = 450
+		naval_speed = 26
+		fuel_consumption = 67
+		reliability = 0.95
+		build_cost_ic = 3600
+		resources = {
+			#oil = 1
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 6000
+	}
+	ship_hull_battle_carrier_5 = {
+		abbreviation = "bcve"
+		year = 1948
+
+		archetype = ship_hull_battle_carrier
+		priority = 1500
+		parent = ship_hull_battle_carrier_4
+		visual_level = 1
+		
+		can_convert_from = { ship_hull_heavy_5 }
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_fire_control_system_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_airplane_launcher
+					ship_heavy_battery
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
+				}
+			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			rear_1_custom_slot = heavy_flight_deck_1
+		}
+		naval_range = 5000
+		
+		max_strength = 500
+		naval_speed = 28
+		fuel_consumption = 70
+		reliability = 0.95
+		build_cost_ic = 4200
+		resources = {
+			#oil = 1
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 6250
+	}
+
+}

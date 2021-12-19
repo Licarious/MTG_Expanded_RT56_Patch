@@ -13,7 +13,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery ship_medium_battery}
+				allowed_module_categories = { ship_light_battery ship_medium_battery light_ship_cruise_missiles medium_ship_cruise_missiles }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -49,6 +49,8 @@ equipments = {
 					ship_secondaries
 					ship_airplane_launcher
 					ship_mine_layer
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
@@ -61,7 +63,9 @@ equipments = {
 					ship_airplane_launcher
 					ship_cfi_rear_deck_space					
 					ship_mine_layer
-					ship_depth_charge				
+					ship_depth_charge
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles					
 				}
 			}
 		}
@@ -170,6 +174,8 @@ equipments = {
 					ship_light_battery
 					ship_medium_battery
 					ship_anti_air
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
 				}
 			}		
 			mid_1_custom_slot = {
@@ -178,7 +184,9 @@ equipments = {
 					ship_light_battery
 					ship_medium_battery						
 					ship_anti_air
-					ship_secondaries				
+					ship_secondaries
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
 				}
 			}
 			mid_2_custom_slot = {
@@ -250,6 +258,8 @@ equipments = {
 					ship_light_battery
 					ship_medium_battery
 					ship_anti_air
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
 				}
 			}		
 			mid_1_custom_slot = {
@@ -265,7 +275,9 @@ equipments = {
 					ship_cfii_mid_deck_space
 					ship_light_battery
 					ship_medium_battery
-					ship_anti_air					
+					ship_anti_air
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
 				}
 			}	
 			mid_3_custom_slot = {
@@ -282,7 +294,9 @@ equipments = {
 					ship_medium_battery
 					ship_anti_air
 					ship_mine_layer
-					ship_depth_charge	
+					ship_depth_charge
+					light_ship_cruise_missiles
+					medium_ship_cruise_missiles
 				}
 			}
 			rear_2_custom_slot = {
@@ -291,7 +305,7 @@ equipments = {
 					ship_secondaries
 					ship_anti_air
 					ship_mine_layer
-					ship_depth_charge	
+					ship_depth_charge
 				}
 			}
 		}
@@ -344,6 +358,7 @@ equipments = {
 					ship_secondaries					
 					ship_anti_air					
 					ship_fuel_tank
+					light_ship_cruise_missiles
 				}
 			}																	
 			rear_1_custom_slot = inherit
@@ -397,6 +412,7 @@ equipments = {
 					ship_secondaries					
 					ship_anti_air					
 					ship_fuel_tank
+					light_ship_cruise_missiles
 				}
 			}																	
 			rear_1_custom_slot = inherit
