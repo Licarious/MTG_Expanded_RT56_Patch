@@ -3,6 +3,14 @@ spriteTypes = {
 		name = "GFX_latewar_fire_control_system_medium"
 		texturefile = "gfx/interface/technologies/advanced_fire_control_system.dds"
 	}
+	SpriteType = {
+		name = "GFX_modern_battle_carrier_medium"
+		texturefile = "gfx/interface/technologies/modern_battle_carrier.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_cruiser_carrier_medium"
+		texturefile = "gfx/interface/technologies/modern_cruiser_carrier.dds"
+	}
 	
 	#HOI4 Extra
 	SpriteType = {
