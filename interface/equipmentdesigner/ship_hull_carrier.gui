@@ -453,7 +453,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_carrier_hull_front1_light_ship_cruise_missiles"
+						spriteType = "GFX_SM_front_light_ssm"
 						position = { x=336 y=0 }
 					}
 				}
@@ -464,7 +464,7 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_front1_light_ship_cruise_missiles@highlight"
+						spriteType = "GFX_SM_front_light_ssm@highlight"
 						position = { x=336 y=0 }
 					}
 				}

@@ -1,5 +1,5 @@
 
-mtge_rt56_naval_capital_battleship = {
+mtge_rt56_naval_capital_battle_carrier = {
 	category = naval
 	
 	blocked_for = {	}

@@ -30,8 +30,8 @@ equipment_modules = {
 #Battle Carrier Decks
 	heavy_flight_deck_1 = {
 		category = heavy_flight_deck
-		gui_category = deck_space
-		gfx = ship_deck_space_1
+		#gui_category = deck_space
+		gfx = ship_deck_space
 		
 		allowed_module_categories = {
 			mid_1_custom_slot = {
@@ -58,8 +58,8 @@ equipment_modules = {
 	}
 	heavy_flight_deck_2 = {
 		category = heavy_flight_deck
-		gui_category = deck_space
-		gfx = ship_deck_space_2
+		#gui_category = deck_space
+		gfx = ship_deck_space
 		
 		allowed_module_categories = {
 			mid_1_custom_slot = {
@@ -91,8 +91,8 @@ equipment_modules = {
 #Battle Carrier Hangers
 	heavy_flight_deck_1_hanger_1 = {
 		category = heavy_deck_1_hanger
-		gui_category = ship_cfii_mid_deck_space
-		gfx = ship_deck_space_1
+		gui_category = ship_deck_space
+		gfx = ship_deck_space
 		
 		add_stats = {
 			carrier_size = 6					
@@ -115,8 +115,8 @@ equipment_modules = {
 	}
 	heavy_flight_deck_2_hanger_1 = {
 		category = heavy_deck_2_hanger
-		gui_category = ship_cfii_mid_deck_space
-		gfx = ship_deck_space_2
+		gui_category = ship_deck_space
+		gfx = ship_deck_space
 		
 		add_stats = {
 			carrier_size = 6					
@@ -273,4 +273,60 @@ equipment_modules = {
 		}
 		
 		critical_parts = { damaged_heavy_guns }
+	}
+
+#Nuclear Engines
+	light_ship_engine_nuclear_1 = {
+		category = light_ship_engine
+		parent = light_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+		gfx = heavy_ship_engine_nuclear_1
+
+		add_stats = {
+			naval_speed = 5 
+			naval_range = 1500 
+			build_cost_ic = 500 
+			fuel_consumption = -10 
+		}
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.2
+		}
+	}
+	
+	cruiser_ship_engine_nuclear_1 = {
+		category = cruiser_ship_engine
+		parent = cruiser_ship_engine_4
+		sfx = sfx_ui_sd_module_engine
+		gfx = heavy_ship_engine_nuclear_1
+
+		add_stats = {
+			naval_speed = 8
+			naval_range = 1500 
+			build_cost_ic = 1975
+			fuel_consumption = -30
+		}
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.2
+		}
+	}
+	
+	super_heavy_ship_engine_nuclear_1 = {
+		category = super_heavy_ship_engine
+		parent = super_heavy_ship_engine_2
+		sfx = sfx_ui_sd_module_engine
+		gfx = heavy_ship_engine_nuclear_1
+
+		add_stats = {
+			naval_speed = 12
+			naval_range = 1500 
+			build_cost_ic = 6000 #seriously, why would you build this?
+			fuel_consumption = -50
+		}
+		
+		multiply_stats = {
+			naval_speed = 0.45
+			reliability = -0.2
+		}
 	}
