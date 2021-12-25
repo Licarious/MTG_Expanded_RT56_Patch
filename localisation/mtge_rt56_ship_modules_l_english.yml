@@ -10,8 +10,27 @@
  heavy_flight_deck_1_hanger_1_desc:0 "A expantion of the small Battle Carrier flight deck that allow for more aircraft"
  heavy_flight_deck_2_hanger_1:0 "Large Deck Hanger Capacity Module"
  heavy_flight_deck_2_hanger_1_desc:0 "A expantion of the large Battle Carrier flight deck that allow for more aircraft"
- #HOI4 Extra
  
+ submarine_light_battery_4:0 "Modern 130 mm RF. Cannon"   
+ submarine_light_battery_4_short:0 "Submersible Light Battery IV"  
+ submarine_light_battery_4_desc:0 "A submersible pair of small guns in a powered, armored mount."  
+ 
+ submarine_dp_light_battery_2:0 "Modern 127 mm Dual-Purpose Battery"
+ submarine_dp_light_battery_2_short:0 "Submersible Dual-Purpose Main Battery II"
+ submarine_dp_light_battery_2_desc:0 "A small gun in a special submersible mount, allowing it to engage airplanes as well as surface targets."
+ 
+ submarine_medium_battery_4:0 "Modern 15.5 cm Auto-Loading Cannon"
+ submarine_medium_battery_4_short:0 "Submersible Medium Battery IV"
+ submarine_medium_battery_4_desc:0 "Adapted from a successful light cruiser mount for its high rate of fire, this weapon was created to allow submarine cruisers to disable even bigger enemies through a multitude of hits."
+ submarine_medium_battery_cap_4:0 "Modern 15.5 cm Auto-Loading Cannon"
+ submarine_medium_battery_cap_4_short:0 "Submersible Medium Battery IV"
+ submarine_medium_battery_cap_4_desc:0 "Adapted from a successful light cruiser mount for its high rate of fire, this weapon was created to allow submarine cruisers to disable even bigger enemies through a multitude of hits."
+ 
+ submarine_heavy_battery_4:0 "38 cm Cannon"
+ submarine_heavy_battery_4_short:0 "Submersible Heavy Battery IV"
+ submarine_heavy_battery_4_desc:0 "A heavily armored mount for heavy guns, incorporating a number of new technologies to increase accuracy and firing speed."
+ 
+ #HOI4 Extra
  cruiser_ship_engine_nuclear_1:0 "Nuclear Cruiser Engine"
  cruiser_ship_engine_nuclear_1_short:0 "Nuclear Cruiser Reactor"
  cruiser_ship_engine_nuclear_1_desc:1 "The ultimate achievement in naval propulsion, this system composed of four reactors gives enough power for a cruiser."

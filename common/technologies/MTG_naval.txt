@@ -540,6 +540,10 @@ technologies = {
 	
 	anti_submarine_missile = {
 
+		dependencies = {
+			advanced_rocket_engines = 1
+		}
+		
 		enable_equipment_modules = { 
 			ship_depth_charge_5
 		}
@@ -587,6 +591,7 @@ technologies = {
 			naval_equipment
 			dd_tech
 			asw_tech
+			rocketry
 		}
 	}
 	
@@ -4298,6 +4303,8 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_light_battery_5
 			dp_light_battery_2
+			submarine_light_battery_4
+			submarine_dp_light_battery_2
 		}
 		
 		on_research_complete = {
@@ -4355,6 +4362,10 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1952
+		
+		dependencies = {
+			advanced_rocket_engines = 1
+		}
 
 		enable_equipment_modules = { 
 			surface_air_missile_1
@@ -4392,6 +4403,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			anti_air_tech
+			rocketry
 		}
 	}
 	
@@ -4400,6 +4412,10 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1952
+		
+		dependencies = {
+			advanced_rocket_engines = 1
+		}
 
 		enable_equipment_modules = { 
 			anti_ship_missile_1
@@ -4445,6 +4461,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			rocketry
 		}
 	}
 
@@ -4829,9 +4846,10 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1948
-
+		
 		enable_equipment_modules = { 
 			ship_medium_battery_5
+			submarine_medium_battery_cap_4
 		}
 		on_research_complete = {
 			custom_effect_tooltip = medium_battery_advice_tt
@@ -4871,6 +4889,10 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1952
+		
+		dependencies = {
+			advanced_rocket_engines = 1
+		}
 
 		enable_equipment_modules = { 
 			anti_ship_missile_2
@@ -4906,6 +4928,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			rocketry
 		}
 	}
 	
