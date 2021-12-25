@@ -207,7 +207,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_light_guns }
 	}	
-	
 	submarine_medium_battery_4 = {
 		category = submarine_medium_battery
 		parent = submarine_medium_battery_3
@@ -323,6 +322,141 @@ equipment_modules = {
 		}		
 		critical_parts = { damaged_heavy_guns }
 		dismantle_cost_ic = 200		
+	}
+
+	submarine_light_medium_battery_1 = {
+		category = submarine_medium_battery_cap
+		gui_category = submarine_light_medium_battery
+
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {	
+			lg_attack = 2
+			build_cost_ic = 425
+			surface_visibility = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.06
+			reliability = -0.08
+			max_strength = 0.1
+			sub_visibility = 0.25
+		}
+		add_average_stats = {
+			lg_armor_piercing = 5.5
+			max_strength = 20
+		}
+		can_convert_from = {
+			module_category = submarine_medium_battery_cap
+			convert_cost_ic = 500
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	submarine_light_medium_battery_2 = {
+		category = submarine_medium_battery_cap
+		gui_category = submarine_light_medium_battery
+		parent = submarine_light_medium_battery_1
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {	
+			lg_attack = 2.8
+			build_cost_ic = 475
+			surface_visibility = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.07
+			reliability = -0.07
+			max_strength = 0.1
+			sub_visibility = 0.28
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+			max_strength = 20
+		}
+		can_convert_from = {
+			module_category = submarine_medium_battery_cap
+			convert_cost_ic = 400
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module = submarine_light_medium_battery_1
+			convert_cost_ic = 300
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	submarine_light_medium_battery_3 = {
+		category = submarine_medium_battery_cap
+		gui_category = submarine_light_medium_battery
+		parent = submarine_light_medium_battery_2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 3.3
+			build_cost_ic = 500
+			surface_visibility = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.08
+			reliability = -0.06
+			max_strength = 0.1
+			sub_visibility = 0.3
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8
+			max_strength = 20
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = submarine_medium_battery_cap
+			convert_cost_ic = 500
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module = submarine_light_medium_battery_2
+			convert_cost_ic = 350
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	submarine_light_medium_battery_4 = {
+		category = submarine_medium_battery_cap
+		sfx = sfx_ui_sd_module_turret
+		gui_category = submarine_light_medium_battery
+		parent = submarine_light_medium_battery_3
+		add_stats = {
+			lg_attack = 4
+			build_cost_ic = 550
+			surface_visibility = 1
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+			reliability = -0.05
+			max_strength = 0.1
+			sub_visibility = 0.32
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9
+			max_strength = 20
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = submarine_medium_battery_cap
+			convert_cost_ic = 600
+			convert_cost_resources = {
+				steel = 1
+			}
+		}
+		can_convert_from = {
+			module = submarine_light_medium_battery_3
+			convert_cost_ic = 400
+		}
+		critical_parts = { damaged_light_guns }
 	}
 
 

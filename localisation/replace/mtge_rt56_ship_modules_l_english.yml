@@ -1,6 +1,7 @@
 ﻿l_english:
  EQ_MOD_CAT_heavy_flight_deck_TITLE:0 "Battle Carrier Flight Deck"
  EQ_MOD_CAT_heavy_deck_1_hanger_TITLE:0 "Battle Carrier Hanger Facility Expantion Module"
+ EQ_MOD_CAT_submarine_light_medium_battery_TITLE:0 "Submersible Light Medium Battery"
 
  heavy_flight_deck_1:0 "Small Battle Carrier Deck"
  heavy_flight_deck_1_desc:0 "A small open deck added aft of the main stack allows a limited number of fighters and bombers to operate from then vessal that allows for one expantion module."
@@ -19,16 +20,30 @@
  submarine_dp_light_battery_2_short:0 "Submersible Dual-Purpose Main Battery II"
  submarine_dp_light_battery_2_desc:0 "A small gun in a special submersible mount, allowing it to engage airplanes as well as surface targets."
  
- submarine_medium_battery_4:0 "Modern 15.5 cm Auto-Loading Cannon"
- submarine_medium_battery_4_short:0 "Submersible Medium Battery IV"
- submarine_medium_battery_4_desc:0 "Adapted from a successful light cruiser mount for its high rate of fire, this weapon was created to allow submarine cruisers to disable even bigger enemies through a multitude of hits."
- submarine_medium_battery_cap_4:0 "Modern 15.5 cm Auto-Loading Cannon"
+ submarine_medium_battery_cap_1:0 "17 cm Cannon"
+ submarine_medium_battery_cap_2:0 "19 cm Cannon"
+ submarine_medium_battery_cap_3:0 "20.3 cm Auto-Loading Cannon"
+ submarine_medium_battery_1:0 "17 cm Cannon"
+ submarine_medium_battery_2:0 "19 cm Cannon"
+ submarine_medium_battery_3:0 "20.3 cm Auto-Loading Cannon"
+
+ submarine_medium_battery_cap_4:0 "Modern 20.3 cm Auto-Loading Cannon"
  submarine_medium_battery_cap_4_short:0 "Submersible Medium Battery IV"
  submarine_medium_battery_cap_4_desc:0 "Adapted from a successful light cruiser mount for its high rate of fire, this weapon was created to allow submarine cruisers to disable even bigger enemies through a multitude of hits."
  
  submarine_heavy_battery_4:0 "38 cm Cannon"
  submarine_heavy_battery_4_short:0 "Submersible Heavy Battery IV"
  submarine_heavy_battery_4_desc:0 "A heavily armored mount for heavy guns, incorporating a number of new technologies to increase accuracy and firing speed."
+ 
+ 
+ submarine_light_medium_battery_1:0 "14.5 cm Cannon"
+ submarine_light_medium_battery_1_short:0 "Submersible Medium Battery I"
+ submarine_light_medium_battery_2:0 "15 cm Cannon"
+ submarine_light_medium_battery_2_short:0 "Submersible Medium Battery II"
+ submarine_light_medium_battery_3:0 "15.5 cm Auto-Loading Cannon"
+ submarine_light_medium_battery_3_short:0 "Submersible Medium Battery III"
+ submarine_light_medium_battery_4:0 "Modern 15.5 cm Auto-Loading Cannon"
+ submarine_light_medium_battery_4_short:0 "Submersible Medium Battery IV"
  
  #HOI4 Extra
  cruiser_ship_engine_nuclear_1:0 "Nuclear Cruiser Engine"
