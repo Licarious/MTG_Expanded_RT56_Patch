@@ -1,4 +1,6 @@
 ﻿l_english:
+ battle_carrier:0 "Battle Carrier"
+
  ship_hull_cruiser_CC:0 "Large Cruiser Hull"
  ship_hull_cruiser_CC_desc:0 "A scaled up cruiser that fills a niche between heavy cruiser and battle cruiser classes with improved powerplants and upgraded armaments giving it the ability to outpace and outgun conventional cruisers.  Though lightly armored for its size, this cruiser's formidable anti-aircraft battery array also makes it ideal for carrier escort duties."
  light_cruiser_CC:1 "Light Large Cruiser"

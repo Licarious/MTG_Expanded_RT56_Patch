@@ -2,6 +2,9 @@
  EQ_MOD_CAT_heavy_flight_deck_TITLE:0 "Battle Carrier Flight Deck"
  EQ_MOD_CAT_heavy_deck_1_hanger_TITLE:0 "Battle Carrier Hanger Facility Expantion Module"
  EQ_MOD_CAT_submarine_light_medium_battery_TITLE:0 "Submersible Light Medium Battery"
+ EQ_MOD_CAT_light_ship_cruise_missiles_TITLE:0 "Light Cruise Missile"
+ EQ_MOD_CAT_medium_ship_cruise_missiles_TITLE:0 "Medium Cruise Missile"
+ 
 
  heavy_flight_deck_1:0 "Small Battle Carrier Deck"
  heavy_flight_deck_1_desc:0 "A small open deck added aft of the main stack allows a limited number of fighters and bombers to operate from then vessal that allows for one expantion module."

@@ -392,7 +392,182 @@ guiTypes = {
 					}
 				}
 			}
+			
+			################# MODULE SLOT: Custom, Rear #1 #################
+			containerWindowType = {
+				name = "rear_1_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
 
+				#### MODULE: Torpedo ####
+				containerWindowType = {
+					name = "ship_torpedo"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_torpedo"
+						position = { x=70 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_torpedo@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
+						position = { x=70 y=0 }
+					}
+				}
+
+				#### MODULE: Mine Sweeper ####
+				containerWindowType = {
+					name = "ship_mine_sweeper"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_mine_sweeper"
+						position = { x=40 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_mine_sweeper@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_mine_sweeper@highlight"
+						position = { x=40 y=0 }
+					}
+				}
+
+				#### MODULE: Mine Layer ####
+				containerWindowType = {
+					name = "ship_mine_layer"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_mine_layer"
+						position = { x=48 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_mine_layer@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_mine_layer@highlight"
+						position = { x=48 y=0 }
+					}
+				}
+
+				#### MODULE: Depth Charge ####
+				containerWindowType = {
+					name = "ship_depth_charge"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_depth_charge"
+						position = { x=45 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_depth_charge@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_depth_charge@highlight"
+						position = { x=45 y=0 }
+					}
+				}
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_anti_air"
+						position = { x=75 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_anti_air@highlight"
+						position = { x=75 y=0 }
+					}
+				}
+
+				#### MODULE: Light Battery ####
+				containerWindowType = {
+					name = "ship_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_light_battery"
+						position = { x=91 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_rear_1_light_battery@highlight"
+						position = { x=91 y=0 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "light_ship_cruise_missiles"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_rear_light_ssm"
+						position = { x=81 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "light_ship_cruise_missiles@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_rear_light_ssm@highlight"
+						position = { x=81 y=0 }
+					}
+				}
+
+			}
+			
 			################# MODULE SLOT: Custom, Middle #1 #################
 			containerWindowType = {
 				name = "mid_1_custom_slot"
@@ -852,204 +1027,7 @@ guiTypes = {
 
 			}
 
-			################# MODULE SLOT: Custom, Rear #1 #################
-			containerWindowType = {
-				name = "rear_1_custom_slot"
-				position = { x=0 y=0 }
-				size = { width=100% height=100% }
-
-				#### MODULE: Torpedo ####
-				containerWindowType = {
-					name = "ship_torpedo"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_torpedo"
-						position = { x=70 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_torpedo@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_torpedo@highlight"
-						position = { x=70 y=0 }
-					}
-				}
-
-				#### MODULE: Mine Sweeper ####
-				containerWindowType = {
-					name = "ship_mine_sweeper"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_mine_sweeper"
-						position = { x=40 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_mine_sweeper@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_mine_sweeper@highlight"
-						position = { x=40 y=0 }
-					}
-				}
-
-				#### MODULE: Mine Layer ####
-				containerWindowType = {
-					name = "ship_mine_layer"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_mine_layer"
-						position = { x=48 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_mine_layer@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_mine_layer@highlight"
-						position = { x=48 y=0 }
-					}
-				}
-
-				#### MODULE: Depth Charge ####
-				containerWindowType = {
-					name = "ship_depth_charge"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_depth_charge"
-						position = { x=45 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_depth_charge@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_depth_charge@highlight"
-						position = { x=45 y=0 }
-					}
-				}
-				
-				#### MODULE: Light Cruise Missiles ####
-				containerWindowType = {
-					name = "light_ship_cruise_missiles"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_light_ship_cruise_missiles"
-						position = { x=75 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "light_ship_cruise_missiles@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_light_ship_cruise_missiles@highlight"
-						position = { x=75 y=0 }
-					}
-				}
-
-				#### MODULE: Anti-Air ####
-				containerWindowType = {
-					name = "ship_anti_air"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_anti_air"
-						position = { x=75 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_anti_air@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_anti_air@highlight"
-						position = { x=75 y=0 }
-					}
-				}
-
-				#### MODULE: Light Battery ####
-				containerWindowType = {
-					name = "ship_light_battery"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_light_battery"
-						position = { x=91 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_light_battery@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_light_hull_rear_1_light_battery@highlight"
-						position = { x=91 y=0 }
-					}
-				}
-				
-				containerWindowType = {
-					name = "light_ship_cruise_missiles"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_rear_light_ssm"
-						position = { x=91 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "light_ship_cruise_missiles@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_rear_light_ssm@highlight"
-						position = { x=91 y=0 }
-					}
-				}
-
-			}
+			
 		}
 	}
 }

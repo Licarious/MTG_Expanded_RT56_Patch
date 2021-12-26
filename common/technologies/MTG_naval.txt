@@ -4671,7 +4671,7 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_medium_battery_2
 			ship_light_medium_battery_2
-			submarine_medium_battery_1
+			#submarine_medium_battery_1
 			submarine_medium_battery_cap_1		
 			submarine_light_medium_battery_1
 		}
@@ -4719,7 +4719,7 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_medium_battery_3
 			ship_light_medium_battery_3
-			submarine_medium_battery_2	
+			#submarine_medium_battery_2	
 			submarine_medium_battery_cap_2		
 			submarine_light_medium_battery_2
 		}
@@ -4762,7 +4762,7 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_medium_battery_4
 			ship_light_medium_battery_4
-			submarine_medium_battery_3	
+			#submarine_medium_battery_3	
 			submarine_medium_battery_cap_3	
 			submarine_light_medium_battery_3
 		}
@@ -4853,7 +4853,7 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			ship_medium_battery_5
-			submarine_medium_battery_4
+			#submarine_medium_battery_4
 			submarine_medium_battery_cap_4
 		}
 		on_research_complete = {

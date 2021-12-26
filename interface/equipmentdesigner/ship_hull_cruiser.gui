@@ -165,7 +165,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_front_light_ssm"
-						position = { x=385 y=0 }
+						position = { x=400 y=0 }
 					}
 				}
 
@@ -177,7 +177,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_front_light_ssm@highlight"
-						position = { x=385 y=0 }
+						position = { x=400 y=0 }
 					}
 				}
 				
@@ -189,7 +189,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_front_medium_ssm"
-						position = { x=385 y=0 }
+						position = { x=400 y=0 }
 					}
 				}
 
@@ -201,7 +201,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_front_medium_ssm@highlight"
-						position = { x=385 y=0 }
+						position = { x=400 y=0 }
 					}
 				}
 			}
@@ -807,7 +807,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_light_ssm"
-						position = { x=60 y=0 }
+						position = { x=105 y=1 }
 					}
 				}
 				containerWindowType = {
@@ -818,7 +818,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_light_ssm@highlight"
-						position = { x=60 y=0 }
+						position = { x=105 y=1 }
 					}
 				}
 				### MODULE: Main Battery Missiles ###
@@ -1033,7 +1033,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_light_ssm"
-						position = { x=70 y=0 }
+						position = { x=70 y=1 }
 					}
 				}
 				containerWindowType = {
@@ -1044,11 +1044,10 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_light_ssm@highlight"
-						position = { x=70 y=0 }
+						position = { x=70 y=1 }
 					}
 				}
-				### MODULE: Main Battery Missiles ###
-				
+
 				containerWindowType = {
 					name = "medium_ship_cruise_missiles"
 					position = { x=0 y=0 }
@@ -1057,7 +1056,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_medium_ssm"
-						position = { x=125 y=0 }
+						position = { x=70 y=0 }
 					}
 				}
 
@@ -1069,7 +1068,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_rear_medium_ssm@highlight"
-						position = { x=125 y=0 }
+						position = { x=70 y=0 }
 					}
 				}
 			}

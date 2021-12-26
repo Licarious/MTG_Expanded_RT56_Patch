@@ -27,6 +27,10 @@ spriteTypes = {
 		name = "EQ_MOD_CAT_submarine_light_medium_battery"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_light_medium_battery_icn.dds"
 	}
+	spriteType = {
+		name = "EQ_MOD_CAT_medium_ship_cruise_missiles"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_cruise_missiles_icn.dds"
+	}
 
 ######## Deck Space	
 
