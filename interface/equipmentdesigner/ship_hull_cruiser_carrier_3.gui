@@ -4,7 +4,7 @@ guiTypes = {
 
 	################# Equipment Archetype: ship_hull_cruiser_carrier #################
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_cruiser_carrier_5"
+		name = "equipment_designer_ship_hull_cruiser_carrier_3"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -463,7 +463,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_carrier_hull_fixed_deck_space"
-						position = { x=152 y=0 }
+						position = { x=160 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -474,7 +474,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_fixed_deck_space@highlight"
-						position = { x=152 y=0 }
+						position = { x=160 y=0 }
 					}
 				}
 
@@ -612,8 +612,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_hull_rear_light_battery"
-						position = { x=226 y=22 }
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery"
+						position = { x=402 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -623,8 +623,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_hull_rear_light_battery@highlight"
-						position = { x=226 y=22 }
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery@highlight"
+						position = { x=402 y=0 }
 					}
 				}
 
@@ -637,7 +637,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid2_anti_air"
-						position = { x=233 y=0 }
+						position = { x=210 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -648,55 +648,31 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid2_anti_air@highlight"
-						position = { x=233 y=0 }
+						position = { x=210 y=0 }
 					}
 				}
 
-				#### MODULE: Secondaries ####
+				#### MODULE: Airplane Launcher ####
 				containerWindowType = {
-					name = "ship_secondaries"
+					name = "ship_cfiii_airplane_launcher"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid4_secondaries"
-						position = { x=228 y=0 }
+						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid_4_airplane_launcher"
+						position = { x=170 y=0 }
 					}
 				}
 				containerWindowType = {
-					name = "ship_secondaries@highlight"
+					name = "ship_cfiii_airplane_launcher@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid4_secondaries@highlight"
-						position = { x=228 y=0 }
-					}
-				}
-
-				#### MODULE: Seaplane Tender ####
-				containerWindowType = {
-					name = "ship_seaplane_tender"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid_4_seaplane_tender"
-						position = { x=206 y=0 }
-					}
-				}
-				containerWindowType = {
-					name = "ship_seaplane_tender@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid_4_seaplane_tender@highlight"
-						position = { x=206 y=0 }
+						spriteType = "GFX_SM_cruiser_carrier_hull_iii_mid_4_airplane_launcher@highlight"
+						position = { x=170 y=0 }
 					}
 				}
 				#### MODULE: Extra Fuel Tank ####
@@ -707,8 +683,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_cruiser_carrier_hull_fuel_tank"
-						position = { x=0 y=0 }
+						spriteType = "GFX_SM_GFX_SM_cruiser_hull_fuel_tank"
+						position = { x=170 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -718,55 +694,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_cruiser_carrier_hull_fuel_tank@highlight"
-						position = { x=0 y=0 }
-					}
-				}
-				
-				#Missiles
-				containerWindowType = {
-					name = "light_ship_cruise_missiles"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_rear_light_ssm"
-						position = { x=226 y=22 }
-					}
-				}
-				containerWindowType = {
-					name = "light_ship_cruise_missiles@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_rear_light_ssm@highlight"
-						position = { x=226 y=22 }
-					}
-				}
-				
-				containerWindowType = {
-					name = "medium_ship_cruise_missiles"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "image"
-						spriteType = "GFX_SM_rear_medium_ssm"
-						position = { x=226 y=22 }
-					}
-				}
-				containerWindowType = {
-					name = "medium_ship_cruise_missiles@highlight"
-					position = { x=0 y=0 }
-					size = { width=100% height=100% }
-					
-					iconType = {
-						name = "highlight"
-						spriteType = "GFX_SM_rear_medium_ssm@highlight"
-						position = { x=226 y=22 }
+						spriteType = "GFX_SM_cruiser_hull_fuel_tank@highlight"
+						position = { x=170 y=0 }
 					}
 				}
 			}	
@@ -1033,7 +962,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_light_ssm"
-						position = { x=55 y=1 }
+						position = { x=55 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1044,7 +973,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_rear_light_ssm@highlight"
-						position = { x=55 y=1 }
+						position = { x=55 y=0 }
 					}
 				}
 				
@@ -1056,7 +985,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_rear_medium_ssm"
-						position = { x=55 y=1 }
+						position = { x=55 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -1067,7 +996,7 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_rear_medium_ssm@highlight"
-						position = { x=55 y=1 }
+						position = { x=55 y=0 }
 					}
 				}
 			}
