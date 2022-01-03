@@ -60,6 +60,7 @@ equipment_modules = {
 		category = heavy_flight_deck
 		#gui_category = deck_space
 		gfx = ship_deck_space
+		parent = heavy_flight_deck_1
 		
 		allowed_module_categories = {
 			mid_1_custom_slot = {
@@ -460,6 +461,34 @@ equipment_modules = {
 	}
 
 
+#light medium battery
+	dp_light_medium_battery_1 = {
+		category = ship_medium_battery
+		sfx = sfx_ui_sd_module_turret
+		gui_category = ship_light_medium_battery_dp_1
+		add_stats = {			
+			lg_attack = 8.1
+			anti_air_attack = 5
+			build_cost_ic = 520
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.5
+			max_strength = 20
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 300
+		}
+		critical_parts = { damaged_light_guns }
+	}
+	
+
 #HOI4 Extra!	
 #ASW
 	ship_depth_charge_5 = {
@@ -509,6 +538,7 @@ equipment_modules = {
 
 	dp_light_battery_2 = {
 		category = ship_light_battery
+		parent = dp_light_battery_1
 		gfx = ship_light_battery_dp_2
 		sfx = sfx_ui_sd_module_turret
 	

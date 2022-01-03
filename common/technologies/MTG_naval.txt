@@ -4811,6 +4811,7 @@ technologies = {
 
 		enable_equipment_modules = { 
 			ship_light_medium_battery_5
+			dp_light_medium_battery_1
 			submarine_light_medium_battery_4
 		}
 		on_research_complete = {

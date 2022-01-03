@@ -34,23 +34,25 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_1
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				#fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				front_1_custom_slot = empty
 				#mid_1_custom_slot = empty
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = 
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
@@ -74,7 +76,7 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_1
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = { 
 					any_of = {  ship_anti_air }
 					upgrade > current
@@ -87,15 +89,15 @@ mtge_rt56_naval_capital_battle_carrier = {
 					upgrade > current
 				}
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				front_1_custom_slot = empty
 				#mid_1_custom_slot = empty
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = heavy_flight_deck
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
 			ship_fire_control_system
 			ship_heavy_armor
@@ -118,25 +120,27 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_2
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				#fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				front_1_custom_slot = empty
 				mid_1_custom_slot = { 
 					any_of = { heavy_deck_1_hanger heavy_deck_2_hanger }
 				}
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = heavy_flight_deck
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
@@ -160,7 +164,7 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_2
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = { 
 					any_of = {  ship_anti_air }
 					upgrade > current
@@ -173,18 +177,20 @@ mtge_rt56_naval_capital_battle_carrier = {
 					upgrade > current
 				}
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				front_1_custom_slot = empty
 				mid_1_custom_slot = { 
 					any_of = { heavy_deck_1_hanger heavy_deck_2_hanger }
 				}
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = heavy_flight_deck
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
@@ -205,25 +211,25 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_3
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				#fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				front_1_custom_slot = empty
 				mid_1_custom_slot = { 
 					any_of = { heavy_deck_1_hanger heavy_deck_2_hanger }
 				}
 				#mid_2_custom_slot = empty
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = heavy_flight_deck
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
 			ship_fire_control_system
 			ship_heavy_armor
@@ -248,7 +254,7 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_3
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = ship_heavy_battery
 				fixed_ship_anti_air_slot = { 
 					any_of = {  ship_anti_air }
 					upgrade > current
@@ -261,19 +267,21 @@ mtge_rt56_naval_capital_battle_carrier = {
 					upgrade > current
 				}
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				front_1_custom_slot = empty
 				mid_1_custom_slot = { 
 					any_of = { heavy_deck_1_hanger heavy_deck_2_hanger }
 				}
 				#mid_2_custom_slot = empty
 				mid_3_custom_slot = empty
-				rear_1_custom_slot = heavy_flight_deck
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
@@ -294,24 +302,28 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_4
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = { 
+					any_of = {  medium_ship_cruise_missiles ship_heavy_battery }
+				}
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				#fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				#front_1_custom_slot = empty
 				mid_1_custom_slot = heavy_deck_2_hanger
 				#mid_2_custom_slot = empty
 				mid_3_custom_slot = heavy_deck_2_hanger
-				rear_1_custom_slot = heavy_flight_deck_2
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
@@ -335,7 +347,9 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_4
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = { 
+					any_of = {  medium_ship_cruise_missiles ship_heavy_battery }
+				}
 				fixed_ship_anti_air_slot = { 
 					any_of = {  ship_anti_air }
 					upgrade > current
@@ -348,16 +362,16 @@ mtge_rt56_naval_capital_battle_carrier = {
 					upgrade > current
 				}
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				#front_1_custom_slot = empty
 				mid_1_custom_slot = heavy_deck_2_hanger
 				#mid_2_custom_slot = empty
 				mid_3_custom_slot = heavy_deck_2_hanger
-				rear_1_custom_slot = heavy_flight_deck
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
 			ship_fire_control_system
 			ship_heavy_armor
@@ -379,30 +393,35 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_5
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = { 
+					any_of = {  medium_ship_cruise_missiles ship_heavy_battery }
+				}
 				fixed_ship_anti_air_slot = ship_anti_air
 				fixed_ship_fire_control_system_slot = ship_fire_control_system
 				#fixed_ship_radar_slot = ship_radar
 				fixed_ship_engine_slot = heavy_ship_engine
 				fixed_ship_secondaries_slot = ship_secondaries
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				#front_1_custom_slot = empty
 				mid_1_custom_slot = heavy_deck_2_hanger
 				#mid_2_custom_slot = empty
 				mid_3_custom_slot = heavy_deck_2_hanger
-				rear_1_custom_slot = heavy_flight_deck_2
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
+			medium_ship_cruise_missiles
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
 			heavy_flight_deck
 			light_ship_cruise_missiles
-			medium_ship_cruise_missiles
 		}
 	}
 	
@@ -420,7 +439,9 @@ mtge_rt56_naval_capital_battle_carrier = {
 			match_value = 1000
 			type = ship_hull_battle_carrier_5
 			modules = {
-				#fixed_ship_battery_slot = ship_heavy_battery
+				fixed_ship_battery_slot = { 
+					any_of = {  medium_ship_cruise_missiles ship_heavy_battery }
+				}
 				fixed_ship_anti_air_slot = { 
 					any_of = {  ship_anti_air }
 					upgrade > current
@@ -433,23 +454,27 @@ mtge_rt56_naval_capital_battle_carrier = {
 					upgrade > current
 				}
 				fixed_ship_armor_slot = ship_heavy_armor
+				rear_1_custom_slot = heavy_flight_deck
 				#front_1_custom_slot = empty
 				mid_1_custom_slot = heavy_deck_2_hanger
 				#mid_2_custom_slot = empty
 				mid_3_custom_slot = heavy_deck_2_hanger
-				rear_1_custom_slot = heavy_flight_deck
+				
 			}
 		}
 
 		allowed_modules = {
-			ship_heavy_battery
+			#ship_heavy_battery
 			ship_anti_air
+			heavy_deck_1_hanger
+			heavy_deck_2_hanger
+			medium_ship_cruise_missiles
 			ship_fire_control_system
 			ship_heavy_armor
 			ship_secondaries
 			heavy_flight_deck
 			light_ship_cruise_missiles
-			medium_ship_cruise_missiles
+			
 		}
 	}
 }

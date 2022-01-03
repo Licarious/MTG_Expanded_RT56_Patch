@@ -48,6 +48,10 @@
  submarine_light_medium_battery_4:0 "Modern 15.5 cm Auto-Loading Cannon"
  submarine_light_medium_battery_4_short:0 "Submersible Medium Battery IV"
  
+ dp_light_medium_battery_1:0 "Modern 15.5 cm Dual-Purpose Battery"
+ dp_light_medium_battery_1_short:0 "Light Cruiser Dual-Purpose Battery"
+ dp_light_medium_battery_1_desc:0 "Designed from the ground up for a high rate of fire, this mount was created to allow light cruisers to disable even bigger enemies through a multitude of hits."
+ 
  #HOI4 Extra
  cruiser_ship_engine_nuclear_1:0 "Nuclear Cruiser Engine"
  cruiser_ship_engine_nuclear_1_short:0 "Nuclear Cruiser Reactor"
