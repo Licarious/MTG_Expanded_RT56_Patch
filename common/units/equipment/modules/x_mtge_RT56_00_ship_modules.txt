@@ -139,6 +139,37 @@ equipment_modules = {
 	
 	}
 
+#AA
+	ship_anti_air_5 = {
+		category = ship_anti_air
+		parent = ship_anti_air_4
+		sfx = sfx_ui_sd_module_turret
+
+		add_equipment_type = anti_air
+		add_stats = {
+			anti_air_attack = 5
+			lg_attack = 1.25
+			build_cost_ic = 230
+		}
+		
+		multiply_stats = {
+			naval_speed = -0.01
+			build_cost_ic = 0.025
+			anti_air_attack = 0.2
+#			surface_visibility = 0.01			
+		}
+
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 180
+		}
+
+		can_convert_from = {
+			module = ship_anti_air_3
+			convert_cost_ic = 60
+		}
+	}
+
 #Submarine Batteries
 	submarine_light_battery_4 = {
 		category = submarine_light_battery
@@ -634,6 +665,7 @@ equipment_modules = {
 		add_equipment_type = anti_air
 		add_stats = {
 			anti_air_attack = 7
+			lg_attack = 1.4
 			build_cost_ic = 400
 		}
 		
