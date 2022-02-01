@@ -14,6 +14,11 @@
  heavy_flight_deck_1_hanger_1_desc:0 "A expantion of the small Battle Carrier flight deck that allow for more aircraft"
  heavy_flight_deck_2_hanger_1:0 "Large Deck Hanger Capacity Module"
  heavy_flight_deck_2_hanger_1_desc:0 "A expantion of the large Battle Carrier flight deck that allow for more aircraft"
+ heavy_flight_deck_1_recon_1:0 "Battle Carrier Search Airgroup"
+ heavy_flight_deck_1_recon_1_desc:0 ""
+ heavy_flight_deck_2_recon_1:0 "Battle Carrier Search Airgroup"
+ heavy_flight_deck_2_recon_1_desc:0 ""
+ 
  
  submarine_light_battery_4:0 "Modern 130 mm RF. Cannon"   
  submarine_light_battery_4_short:0 "Submersible Light Battery IV"  
@@ -87,3 +92,17 @@
  ship_depth_charge_5_short:0 "ASM Launcher I"
  ship_depth_charge_5_desc:0 "System capable of launching missiles that contain a torpedo. Missile will parachute the torpedo into water at low velocity, decreasing the change for a submarine to detect the torpedo."
  
+ surface_air_missile_1_USA:0 "RIM-2 Terrier"
+ anti_ship_missile_2_USA:0 "RGM-59 Taurus"
+ ship_depth_charge_5_USA:0 "SUM-N-2 Grebe"
+ 
+ surface_air_missile_1_ENG:0 "MK1 Seaslug"
+ anti_ship_missile_2_ENG:0 "UB.109T"
+ 
+ anti_ship_missile_1_SOV:0 "P-15 Termit"
+ anti_ship_missile_2_SOV:0 "P-5 Pyatyorka"
+ 
+ anti_ship_missile_1_FRA:0 "Malaface"
+ anti_ship_missile_2_FRA:0 "BHT-52"
+ 
+ surface_air_missile_1_GER:0 "Wasserfall"

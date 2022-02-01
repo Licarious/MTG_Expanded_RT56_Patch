@@ -978,7 +978,8 @@ technologies = {
 			ship_hull_battle_carrier_2
 		}
 		enable_equipment_modules = { 
-			heavy_flight_deck_1_hanger_1					
+			heavy_flight_deck_1_hanger_1
+			heavy_flight_deck_1_recon_1
 		}
 	}
 	improved_ship_hull_battle_carrier = {
@@ -988,6 +989,7 @@ technologies = {
 		enable_equipment_modules = { 
 			heavy_flight_deck_2
 			heavy_flight_deck_2_hanger_1
+			heavy_flight_deck_2_recon_1
 		}
 	}
 	advanced_ship_hull_battle_carrier = {

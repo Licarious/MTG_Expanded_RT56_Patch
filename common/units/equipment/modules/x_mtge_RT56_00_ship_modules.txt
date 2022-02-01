@@ -138,6 +138,37 @@ equipment_modules = {
 		dismantle_cost_ic = 600
 	
 	}
+	heavy_flight_deck_1_recon_1 = {
+		category = heavy_deck_1_hanger
+		gui_category = ship_deck_space
+		gfx = ship_airplane_launcher
+		
+		add_stats = {
+			carrier_size = -4
+			surface_detection = 20
+			sub_detection = 7
+			build_cost_ic = 250
+		}
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		
+	}
+	heavy_flight_deck_2_recon_1 = {
+		category = heavy_deck_2_hanger
+		gui_category = ship_deck_space
+		gfx = ship_airplane_launcher
+		
+		add_stats = {
+			carrier_size = -4
+			surface_detection = 20
+			sub_detection = 7
+			build_cost_ic = 250
+		}
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+	}
 
 #AA
 	ship_anti_air_5 = {
