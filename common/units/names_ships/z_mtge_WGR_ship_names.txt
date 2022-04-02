@@ -1,0 +1,44 @@
+
+WGR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine ship_hull_submarine_carrier submarine_carrier ship_hull_submarine_cruiser submarine_cruiser submarine_heavy }
+	
+	
+}
+
+WGR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	
+
+	
+}
+
+WGR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	
+
+	
+}
+
+WGR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier ship_hull_submarine_carrier submarine_carrier ship_hull_cruiser_carrier cruiser_carrier }
+	
+
+	
+}
