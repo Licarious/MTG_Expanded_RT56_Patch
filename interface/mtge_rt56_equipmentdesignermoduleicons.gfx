@@ -92,6 +92,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_light_medium_battery_dp_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_light_battery_dp_icn_1.dds"
 	}	
+	spriteType = {
+		name = "GFX_SMI_dp_light_medium_battery_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/medium_light_battery_dp_icn_1.dds"
+	}	
 	
 #HOI4 Extra
 	spriteType = {

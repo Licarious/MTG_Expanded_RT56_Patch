@@ -787,22 +787,3 @@ equipment_modules = {
 			reliability = -0.2
 		}
 	}
-	
-	super_heavy_ship_engine_nuclear_1 = {
-		category = super_heavy_ship_engine
-		parent = super_heavy_ship_engine_2
-		sfx = sfx_ui_sd_module_engine
-		gfx = heavy_ship_engine_nuclear_1
-
-		add_stats = {
-			naval_speed = 12
-			naval_range = 1500 
-			build_cost_ic = 6000 #seriously, why would you build this?
-			fuel_consumption = -50
-		}
-		
-		multiply_stats = {
-			naval_speed = 0.45
-			reliability = -0.2
-		}
-	}
